@@ -1,0 +1,11 @@
+variable "backup_policy_vms" { type = any }
+variable "recovery_services_vaults" { type = any }
+variable "backup_policy_vm_workloads" { type = any }
+variable "common" { type = any }
+variable "tags" { type = any }
+variable private_dns_zones { type = any }
+variable private_dns_a_records { type = any }
+variable private_endpoints { type = any }
+variable private_dns_zone_virtual_network_links { type = any }
+variable "subnets" { type = any }
+variable "virtual_networks" { type = any }
